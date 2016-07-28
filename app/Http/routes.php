@@ -24,3 +24,6 @@ Route::resource("hook",'WebHookController');
 Route::get("boxing",function(){
        Artisan::call("autoboxing");
 });
+
+
+Route::resource("storage","StorageController");

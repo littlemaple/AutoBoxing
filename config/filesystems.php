@@ -30,6 +30,7 @@ return [
 
     'cloud' => 's3',
 
+  
     /*
     |--------------------------------------------------------------------------
     | Filesystem Disks
@@ -53,6 +54,27 @@ return [
             'root' => storage_path('app/public'),
             'visibility' => 'public',
         ],
+        /*
+           * 
+           * 
+           * ftp system
+           */
+          'ftp' => [
+              'driver'   => 'ftp',
+              'host'     => 's1.mcloudlife.com',
+              'username' => 'release',
+              'password' => 'package',
+              'port'=>221,
+              'passive'=>true,
+
+          // Optional FTP Settings...
+          // 'port'     => 21,
+          // 'root'     => '',
+          // 'passive'  => true,
+          // 'ssl'      => true,
+          // 'timeout'  => 30,
+          ],
+
 //
 //        's3' => [
 //            'driver' => 's3',
@@ -63,18 +85,5 @@ return [
 //        ],
 
     ],
-    'ftp' => [
-    'driver'   => 'ftp',
-    'host'     => 'localhost',
-    'username' => 'admin',
-    'password' => 'admin',
-
-    // Optional FTP Settings...
-    // 'port'     => 21,
-    // 'root'     => '',
-    // 'passive'  => true,
-    // 'ssl'      => true,
-    // 'timeout'  => 30,
-],
 
 ];

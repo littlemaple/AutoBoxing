@@ -14,7 +14,7 @@ class CommandJob extends \App\Jobs\Job implements ShouldQueue{
     public function handle(){
 //        $exists = Storage::disk('public')->put
         $content = file_get_contents("http://www.mcloudlife.com/");
-        Storage::put("index.jpg",$content);
-        echo "end";
+        Storage::put("index.html",$content);
+        echo Storage::url("index.html");
     }
 }
