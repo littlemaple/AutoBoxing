@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*content*/
+.about-banner img{
+	width:100%;
+}
+.about-all{
+	position:relative;
+}
+
+.about-content{
+	width:1070px;
+	margin:0 auto;
+	padding-left:30px;
+}
+.about-content-parent{
+	display:block;
+	position:relative;
+}
+.about-content-parent.active{
+	display:block;
+}
+/*关于我们*/
+.about-content .about-intro{
+	margin-top:40px;
+	padding-bottom:50px;
+	border-bottom:1px solid #d4d4d4;
+		position:relative;
+}
+.slogan{
+	color:#00b9cc;
+	font-weight:bold;
+	font-size:18px;
+}
+.slogan p.slo1{
+	position:absolute;
+	top:20%;
+	right:15%;
+}
+.slogan p.slo2{
+	position:absolute;
+	top:50%;
+	right:5%;
+}
+.our-idea h3{
+	font-size:13px;
+	color:#333333;
+	line-height:40px;
+}
+.company-intro p,.our-idea p{
+	line-height:26px;
+	color:#7f7f7f;
+}
+.about-content .about-img{
+	padding:20px 0 55px;
+}
+.about-content .about-img img{
+	float:left;
+	margin:0 8px;
+}
+/*软件下载*/
+.about-content-parent .download-img{
+	width:100%;
+}
+.about-content-parent h2.download-title{
+	position:absolute;
+	font-size:42px;
+	left:15%;
+	top:40%;
+	color:#ffffff;
+}
+.about-content-parent .about-download-code{
+	position:absolute;
+	top:55%;
+	left:15%;
+}
+.about-content-parent .about-download-code .about-download-button{
+	width:170px;
+	margin:10px 0 0 30px;
+}
+.about-content-parent .about-download-button a{
+	display:block;
+	width:100px;
+	height:60px;
+	line-height:60px;
+	padding-left:70px;
+	color:#fff;
+	font-weight:bold;
+	border-radius:10px;
+	margin-top:10px;
+}
+.about-content-parent .about-download-button a.ios{
+	background:url(../img/v23/image_index_08.png) no-repeat 25px center #00b9cc;
+}
+.about-content-parent .about-download-button a.android{
+	background:url(../img/v23/image_index_09.png) no-repeat 25px center #878787;
+}
+/*联系我们*/
+.about-content-parent .about-content.about-contract ul{
+	border-bottom:1px solid #eeeeee;
+	padding:25px 0;
+	width:470px;
+}
+.about-content-parent .about-content.about-contract ul li{
+	line-height:28px;
+	color:#7c7c7c;
+	font-size:13px;
+	padding-left:26px;
+}
+.about-content-parent .about-content.about-contract{
+	padding:80px 0 100px;
+}
+.about-content-parent .about-content ul li.con1{
+	background:url(../img/v23/image_index_34.jpg) no-repeat 5px center;
+}
+.about-content-parent .about-content ul li.con2{
+	background:url(../img/v23/image_index_35.jpg) no-repeat 5px center;
+}
+.about-content-parent .about-content ul li.con3{
+	background:url(../img/v23/image_index_36.jpg) no-repeat 5px center;
+}
+.about-content-parent .about-content ul li.con4{
+	background:url(../img/v23/image_index_37.jpg) no-repeat 5px center;
+}
+.about-content-parent .about-content ul li.con5{
+	background:url(../img/v23/image_index_38.jpg) no-repeat 5px center;
+}
+.about-content-parent .about-content.about-contract img.about-contract-img{
+	position:absolute;
+	top:25%;
+	right:10%;
+}
+.about-content-parent .about-content ul li.img-code img{
+	width:150px;
+	height:150px;
+}
+.about-content-parent .about-content ul li a{
+	display:block;
+	margin-top:20px;
+}
+.about-content-parent .about-content ul li.img-code{
+	float:left;
+	text-align:center;
+	padding:0;
+}
+.about-content-parent .about-content ul li.img-code h5{
+	color:#33c7d6;
+	font-size:14px;
+}
+/*招贤纳士*/
+.about-content.about-employ{
+	padding:95px 0 205px;
+}
+.about-content.about-employ ul{
+	width:525px;
+	height:70px;
+	border-left:3px solid #0095a4;
+	margin-top:2px;
+}
+.about-content.about-employ ul:hover{
+	border-left:3px solid #00b9cc;
+}
+.about-content.about-employ img{
+	position:absolute;
+	top:25%;
+	right:10%;
+}
+.about-content.about-employ ul li{
+	height:100%;
+}
+.about-content.about-employ .about-employ-left{
+	width:81%;
+	height:100%;
+	background:url(../img/v23/image_index_42.jpg) repeat-x;
+	padding-left:2%;
+}
+.about-content.about-employ .about-employ-left p{
+	line-height:27px;
+	padding-top:5px;
+}
+.about-content.about-employ li a{
+	display:block;
+	text-align:center;
+	background:url(../img/v23/image_index_41.png) no-repeat center center;
+	padding-top:40px;
+}
+.about-content.about-employ .about-employ-right{
+	width:88px;
+	height:100%;
+	background:url(../img/v23/image_index_42.jpg) repeat-x;
+}
+/*常见问题*/
+.about-content.about-question{
+	padding:50px 0;
+}
+.about-content.about-question ul{
+	
+}
+.about-content.about-question ul li{
+	border-left:3px solid #0095a4;
+	padding-left:20px;
+	margin:20px 0;
+}
+.about-content.about-question ul li strong{
+	display:block;
+	color:#33c7d6;
+	font-size:14px;
+}

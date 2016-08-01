@@ -1,0 +1,234 @@
+@charset "utf-8";
+/*banner*/
+.section1 ul{
+	position:relative;
+}
+.section1 ul li{
+	position:relative;
+	top:0;
+	left:0;
+	display:none;
+}
+.section1 li.index-banner-1 .section-intro{
+	position:absolute;
+	top:22%;
+	left:35%;
+	margin-left:-300px;
+}
+.section1 li.index-banner-2 .section-intro{
+	position:absolute;
+	top:25%;
+	left:15%;
+
+}
+.section1 li.index-banner-2 h2{
+	text-align:right;
+}
+.section1 li.index-banner-2 p{
+	color:#fff;
+}
+.section1 .section-intro h2{
+	font-size:50px;
+	color:#28c4d4;
+	line-height:70px;
+}
+.section1 .section-intro p{
+	font-size:20px;
+	line-height:40px;
+}
+.section1 .section-intro .code-download{
+	width:400px;
+	margin-top:20px;
+}
+.section1 .section1-button a{
+	display:block;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	font-weight:bold;
+	border-radius:10px;
+	margin-top:15px;
+}
+.section1 .section1-button a.ios{
+	background:url(../img/v23/image_index_08.png) no-repeat 25px center #00b9cc;
+	padding-left:70px;
+	width:100px;
+}
+.section1 .section1-button a.android{
+	background:url(../img/v23/image_index_09.png) no-repeat 25px center #878787;
+	padding-left:70px;
+	width:100px;
+}
+.section1 .section1-button a.buyNow{
+	background:#00b9cc;
+	text-align:center;
+	width:170px;
+	font-size:20px;
+}
+.section1 .section1-button a.downNow{
+	background:#878787;
+	text-align:center;
+	width:170px;
+	font-size:20px;
+}
+
+/*content*/
+section{
+	position:relative;
+}
+section.section1 img.bg_img,section.section2 img.bg_img,section.section3 img.bg_img,section.section4 img.bg_img,section.section5 img.bg_img,section.section6 img.bg_img{
+	width:100%;
+}
+.section2 .section-intro h2,.section3 .section-intro h2,.section4 .section-intro h2,.section5 .section-intro h2,.section6 .section-intro h2{
+	font-size:42px;
+	color:#28c4d4;
+	line-height:50px;
+}
+.section2 .section-intro p,.section3 .section-intro p,.section4 .section-intro p,.section5 .section-intro p,.section6 .section-intro p{
+	font-size:18px;
+	line-height:30px;
+	margin-top:20px;
+}
+.section2 .section-intro{
+	position:absolute;
+	top:44%;
+	right:15%;
+	margin-left:-300px;
+}
+.section3 .section-intro{
+	position:absolute;
+	top:14%;
+	left:35%;
+	margin-left:-300px;
+}
+.section4 .section-intro{
+	position:absolute;
+	top:10%;
+	right:15%;
+	margin-left:-300px;
+}
+.section5 .section-intro{
+	position:absolute;
+	top:60%;
+	left:60%;
+	margin-left:-300px;
+}
+.section5 .section-intro h2{
+	color:#fff;
+}
+.section6 .section-intro{
+	position:absolute;
+	bottom:8%;
+	left:35%;
+}
+.section6 .section-intro h2{
+	text-align:center;
+	margin-top:20px;
+}
+.section6 .section-intro p{
+	text-align:center;
+}
+.section6 .section-intro ul li{
+	float:left;
+	margin-right:30px;
+}
+
+
+/*小的轮播图*/
+.section3 .mobile-modle{
+	background:url(../img/v23/image_index_89.png) no-repeat;
+	position:absolute;
+	height:456px;
+	width:215px;
+	right:25%;
+	top:10%;
+}
+.section3 .section3-mobile{
+	position:absolute;
+	top:282px;
+	margin-top:-220px;
+	right:11px;
+	width:188px;
+	overflow:hidden;
+}
+.section3 .section3-mobile ul{
+	width:952px;
+	position:relative;
+}
+.section3 .section3-mobile ul li{
+	float:left;
+}
+.section3 .section3-mobile ul li img{
+	width:190px;
+	height:331px;
+}
+.section3-mobile ol{
+	position:absolute;
+	bottom:0;
+	left:27%;
+}
+.section3-mobile ol li{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:#878787;
+	margin:0 5px;
+	border-radius:10px;
+	cursor:pointer;
+	text-indent:-9999px;
+}
+.section3-mobile ol li.active{
+	background:#00afc9;
+}
+
+
+
+
+/*
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  width:238px;
+  top:10%;
+  right:20%;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > ul {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.swipe img{
+	width:238px;
+	height:418px;
+}*/
+
+/*触摸List*/
+/*
+.section3 ol{
+	position:absolute;
+	bottom:20%;
+	left:67%;
+}
+.section3 ol li{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:#878787;
+	margin:0 5px;
+	border-radius:10px;
+	cursor:pointer;
+	text-indent:-9999px;
+}
+.section3 ol li.on{
+	background:#00afc9;
+}*/
+
+
+
+

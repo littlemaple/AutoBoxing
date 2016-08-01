@@ -12,7 +12,7 @@ class WebHookController extends \App\Http\Controllers\Controller{
     
     
     public function show(){
-        echo var_dump($_POST);
+        $this-dispatch(new \App\Jobs\SendMailJob());
     }
     
     public function index(){

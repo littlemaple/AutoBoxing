@@ -16,18 +16,22 @@ class StorageController extends \App\Http\Controllers\Controller{
        $file_name = rtrim(ltrim(str_replace("/storage/", "",$uri)));
        $exists = Storage::disk('local')->exists($file_name);
        if($exists){
-           return response(Storage::get($file_name));
+            header('Content-Description: File Transfer');
+            header('Content-Type: application/octet-stream');
+            header('Content-Disposition: attachment; filename="'.$file_name.'"');
+            header('Expires: 0');
+            header('Cache-Control: must-revalidate');
+            header('Pragma: public');
+            header('Content-Length: ' . Storage::size($file_name));
+            echo Storage::get($file_name);
+            exit();
        }else{
            return response("the file is not exist",404);
        }
     }
+   
     public function index(){
-
-     $files = Storage::disk('ftp')->listContents("/");
-     foreach ($files as $f=>$con){
-         echo "<pre>".var_dump($f).  var_dump($con)."<br></pre>";
-     }
-//        return response("the file is not exist",404);
+        return view("error",["code"=>404]);
     }
     
 }

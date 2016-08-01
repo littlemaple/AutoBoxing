@@ -1,0 +1,120 @@
+/*peekIndex*/
+.peek-personal{
+	background: #f26c8d;
+	position: relative;
+	height: 45px;
+}
+/*peekRecord*/
+.blood-detail .more-oxydata a{
+	color: #f26c8d;
+	border: 1px solid #f26c8d;
+}
+/*peekRecord-bp*/
+.more-blood-data a {
+	color: #f26c8d;
+}
+.more-blood-data{
+	border: 1px solid #f26c8d;
+}
+/*peekRecord-oxyl*/
+.history-list.history-list-oxyl a{
+	color: #f26c8d;
+	border: 1px solid #f26c8d;
+}
+/*peekCurve*/
+.peek-data-header li.active a{
+	color: #f26c8d;
+	border-bottom: 1px solid #f26c8d;
+}
+.peek-data-header ul li.active span{
+	color: #f26c8d;
+	border-bottom: 1px solid #f26c8d;
+}
+.peek-data-content ul.peek-data-date li.active a{
+	color: #fff;
+	background: #f26c8d;
+}
+.peek-data-content ul.peek-data-date li.active span{
+	color: #fff;
+	background: #f26c8d;
+}
+.peek-data-content ul.peek-data-date{
+	width: 90%;
+	border: 1px solid #f26c8d;
+	margin-left: 6%;
+	border-radius: 5px;
+}
+.peek-curve-time li.active a {
+	background: #f26c8d none repeat scroll 0 0;
+	color: #fff;
+}
+.peek-curve-time a {
+	color: #8a8a8a;
+	display: block;
+	background: #f8eae9;
+}
+.peek-curve-time ul {
+	background: #f8eae9;
+}
+/*peekTable-bs*/
+.bs-table th.table-date{
+	color: #f26c8d;
+	background: #f8eae9;
+}
+.bs-table .top span{
+	display: block;
+	background: #f8eae9;
+	color: #ee6f8f;
+}
+.bs-table th, .bs-table td {
+	border: 1px solid #f8eae9;
+}
+.bs-table th{
+	background: #f8eae9;
+}
+.bs-table td.bg-blue {
+	background: #f9f9f9 none repeat scroll 0 0;
+}
+.bs-table td.left {
+	font-weight: normal;
+	background: #f6f2ef;
+}
+/*peekIndex*/
+.peek-box ul li a.active{
+	color: #f46a8c;
+}
+/*articles*/
+.daily-suggest .content h3{
+	color: #808277;
+}
+.daily-suggest .bottom a{
+	color: #e44e73;
+}
+.daily-suggest .read-button{
+	background: url(../img/app/rsf_btn.png) no-repeat left 0px;
+	background-color: #ffffff;
+}
+.daily-suggest .sport-button{
+	background-position: left -45px;
+}
+.daily-suggest .food-button{
+	background-position: left -90px;
+}
+.daily-suggest .read-button a{
+	background: url(../img/app/rsf_btn.png) no-repeat right -135px;
+	color: #e54d72;
+}
+.article-list input.submit{
+	width: 60px;
+	height: 44px;
+	background: url(../img/web/btn_search_1.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.article a:hover{
+	background-color: #fcf0f3;
+}
+.unsearched .background{
+	height: 200px;
+	background: url(../img/web/back_search_preg.png) no-repeat center center;
+	background-size: 190px 115px;
+}

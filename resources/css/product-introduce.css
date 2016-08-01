@@ -1,0 +1,527 @@
+@charset "utf-8";
+/*banner*/
+.section1 ul{
+	position:relative;
+}
+.section1 ul li{
+	position:relative;
+	top:0;
+	left:0;
+	display:none;
+}
+.product-introduce-blood .section1 li.index-banner-1 .section-intro{
+	position:absolute;
+	bottom:22%;
+	right:15%;
+	margin-left:-300px;
+}
+.product-introduce-blood .section1 li.index-banner-2 .section-intro{
+	position:absolute;
+	top:25%;
+	left:15%;
+}
+.product-introduce-blood .section1 li.index-banner-2 .section1-button{
+	margin-top:0;
+	position:absolute;
+	bottom:15%;
+	left:15%;
+}
+.section1 li.index-banner-2 p{
+	color:#fff;
+	position:absolute;
+	font-size:20px;
+	right:10%;
+	top:75%;
+}
+.product-introduce-blood .section1 .index-banner-2 h2{
+	font-size:50px;
+	color:#fff;
+	line-height:70px;
+	position:absolute;
+	bottom:30%;
+	right:10%;
+}
+.product-introduce-oxy li.index-banner-1 .section-intro{
+	position:absolute;
+	left:25%;
+	bottom:15%;
+}
+.product-introduce-oxy li.index-banner-2 .section-intro{
+	position:absolute;
+	left:25%;
+	bottom:35%;
+}
+.section1 .section-intro p{
+	font-size:20px;
+	line-height:40px;
+}
+.section1 .section1-button{
+	margin-top:10%;
+}
+.section1 .section1-button a{
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	font-weight:bold;
+	border-radius:10px;
+}
+.section1 .section1-button a.ios{
+	background:url(../img/v23/image_index_08.png) no-repeat 25px center #00b9cc;
+	padding-left:80px;
+	width:90px;
+}
+.section1 .section1-button a.android{
+	background:url(../img/v23/image_index_09.png) no-repeat 25px center #878787;
+	padding-left:80px;
+	width:90px;
+}
+.section1 .section1-button a.buyNow{
+	background:#00b9cc;
+	text-align:center;
+	width:170px;
+	font-size:20px;
+}
+.section1 .section1-button a.downNow{
+	background:#878787;
+	text-align:center;
+	width:170px;
+	font-size:20px;
+}
+
+/*content*/
+/*blood*/
+section{
+	position:relative;
+}
+section.section1 img.bg_img,section.section2 img.bg_img,section.section3 img.bg_img,section.section4 img.bg_img,section.section5 img.bg_img,section.section6 img.bg_img,section.section7 img.bg_img,section.section8 img.bg_img,section.section9 img.bg_img,section.section10 img.bg_img{
+	width:100%;
+}
+.product-introduce{
+	display:block;
+}
+.about-banner img{
+	width:100%;
+}
+.section-intro h2{
+	font-size:42px;
+	color:#00b8cc;
+	line-height:48px;
+}
+.section-intro p{
+	font-size:16px;
+	color:#676767;
+	line-height:26px;
+	margin-top:5%;
+}
+.product-introduce-blood .section2 .section-intro{
+	position:absolute;
+	top:20%;
+	left:14%;
+}
+.section2 .section2-button{
+	margin-top:10%;
+	width:350px;
+}
+.section2 .section2-button a{
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	font-weight:bold;
+	border-radius:10px;
+}
+.section2 .section2-button a.ios{
+	background:url(../img/v23/image_index_08.png) no-repeat 25px center #00b9cc;
+	padding-left:70px;
+	width:100px;
+}
+.section2 .section2-button a.android{
+	background:url(../img/v23/image_index_09.png) no-repeat 25px center #878787;
+	padding-left:70px;
+	width:100px;
+}
+.product-introduce-blood .section3 .section-intro{
+	position:absolute;
+	top:20%;
+	right:20%;
+}
+.product-introduce-blood .section4 .section-intro{
+	position:absolute;
+	top:30%;
+	right:20%;
+}
+.product-introduce-blood .section4 .section-intro p{
+	color:#00b7cc;
+}
+.product-introduce-blood .section5 .section-intro{
+	position:absolute;
+	bottom:25%;
+	left:10%;
+}
+.product-introduce-blood .section6 .section-intro{
+	position:absolute;
+	top:10%;
+	right:15%;
+}
+.product-introduce-blood .section7 .section-intro{
+	position:absolute;
+	top:20%;
+	left:15%;
+}
+.product-introduce-blood .section7 .section-intro p{
+	color:#00b7cc;
+}
+.product-introduce-blood .section8 .section-intro{
+	position:absolute;
+	bottom:5%;
+	left:40%;
+}
+.product-introduce-blood .section8 .section-intro p{
+	margin-top:0;
+}
+.section9 h3{
+	position:absolute;
+	top:20%;
+	left:50%;
+	font-size:24px;
+	color:#00b9cc;
+}
+.section9 .section9-model{
+	position:absolute;
+	right:5%;
+	top:35%;
+	width:460px;
+}
+.section9 .section9-model h4{
+	font-size:18px;
+	color:#00b9cc;
+}
+.section9 .section9-model p{
+	color:#6a6a6a;
+	font-size:14px;
+}
+.section9 ul{
+	position:absolute;
+	bottom:10%;
+	left:16%
+}
+.section9 ul li{
+	float:left;
+	width:115px;
+	height:30px;
+	padding-top:85px;
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+	margin-right: 1px;
+}
+.section9 ul li.odd1{
+	background:url(../img/v23/image_index_99.png) no-repeat center 20px #27bbd2;
+}
+.section9 ul li.even1{
+	background:url(../img/v23/image_index_62.png) no-repeat center 20px #0fa6bd;
+}
+.section9 ul li.odd2{
+	background:url(../img/v23/image_index_57.png) no-repeat center 20px #27bbd2;
+}
+.section9 ul li.even2{
+	background:url(../img/v23/image_index_58.png) no-repeat center 20px #0fa6bd;
+}
+.section9 ul li.odd3{
+	background:url(../img/v23/image_index_60.png) no-repeat center 20px #27bbd2;
+}
+.section9 ul li.even3{
+	background:url(../img/v23/image_index_59.png) no-repeat center 20px #0fa6bd;
+}
+.section9 ul li.odd4{
+	background:url(../img/v23/image_index_61.png) no-repeat center 20px #27bbd2;
+}
+.section9 ul li.even4{
+	background:url(../img/v23/image_index_56.png) no-repeat center 20px #0fa6bd;
+}
+.section9 ul li.on{
+	margin-top:-5px;
+}
+.section10{
+	padding-bottom:80px;
+}
+.section10 h3{
+	font-size:24px;
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	color:#00b9cc;
+}
+.section10 ul{
+	border-top:1px solid #e4e7e9;
+}
+.section10 ul li{
+	border-bottom:1px solid #e4e7e9;
+	height:80px;
+	line-height:80px;
+	color:#6b6b6b;
+}
+.section10 ul li.li-event{
+	background:#fcfcfc;
+}
+.section10 ul li .table-left{
+	width:14%;
+	font-size:18px;
+	padding-left:18%;
+}
+.section10 ul li .table-right{
+	border-left:1px solid #e4e7e9;
+	width:62%;
+	font-size:14px;
+	padding-left:5%;
+}
+
+
+/*oxygeen*/
+.product-introduce-oxy .section2 .section-intro{
+	position:absolute;
+	bottom:10%;
+	right:14%;
+}
+.product-introduce-oxy .section3 .section-intro{
+	position:absolute;
+	top:10%;
+	left:25%;
+}
+.product-introduce-oxy .section4 .section-intro{
+	position:absolute;
+	top:24%;
+	right:20%;
+}
+.product-introduce-oxy .section5 .section-intro{
+	position:absolute;
+	top:30%;
+	right:15%;
+}
+.product-introduce-oxy .section6 .section-intro{
+	position:absolute;
+	top:15%;
+	left:15%;
+}
+.product-introduce-oxy .section7 .section-intro{
+	position:absolute;
+	top:50%;
+	left:15%;
+}
+
+/*ear*/
+.product-introduce-ear .section1 .section-intro{
+	position: absolute;
+	left:23%;
+	top: 15%;
+	-webkit-animation:run 1.5s ease both normal;
+	        animation:run 1.5s ease both normal;
+}
+@-webkit-keyframes run{
+	0%{
+		left:-50%;
+	}
+	50%{
+		left:30%;
+	}
+	100%{
+		left:23%;
+	}
+}
+@keyframes run{
+	0%{
+		left: -50%;
+	}
+	50%{
+		left: 30%;
+	}
+	100%{
+		left: 23%;
+	}
+} 
+.product-introduce-ear .section1 .section-intro h2{
+	font-size: 50px;
+}
+.product-introduce-ear .section1 .index-banner-2 h2{
+	position: absolute;
+	color: #00c7da;
+	font-size:50px;
+	right: 10%;
+	top: 50%;
+}
+.product-introduce-ear .section1 .index-banner-2 p{
+	position: absolute;
+	color: #00c7da;
+	font-size: 20px;
+	text-align: right;
+	top: 60%;
+}
+.product-introduce-ear .section2 .section-intro{
+	position: absolute;
+	top:10%;
+	left: 13%;
+}
+.product-introduce-ear .section2 .section-intro p{
+	margin-top: 3%;
+}
+.product-introduce-ear .section3 .section-intro{
+	position: absolute;
+	top: 30%;
+	right:15%;
+}
+.product-introduce-ear .section3 .section-intro h2{
+	color: #fff;
+}
+.product-introduce-ear .section3 .section-intro p{
+	color: #fff;
+}
+.product-introduce-ear .section4 .section-intro{
+	position: absolute;
+	top: 28%;
+	left: 20%;
+}
+.product-introduce-ear .section4 .section-intro p{
+	line-height: 30px;
+	margin-top:10%;
+}
+.product-introduce-ear .section5 .section-intro{
+	position: absolute;
+	top: 25%;
+	right: 20%;
+}
+.product-introduce-ear .section5 .section-intro p{
+	margin-top:10%;
+}
+.product-introduce-ear .section6 .section-intro{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+}
+.product-introduce-ear .section7 .section-intro{
+	position: absolute;
+	top: 23%;
+	right: 15%;
+}
+.product-introduce-ear .section7 .section-intro p{
+	line-height: 32px;
+	margin-top: 10%;
+}
+.product-introduce-ear .section7 .section-intro strong{
+	color: #ca3a3a;
+	font-size: 14px;
+}
+.product-introduce-ear .section9 h3{
+	position: absolute;
+	left: 626px;
+	top: 7%;
+}
+.product-introduce-ear .section9 .section9-model{
+	position: absolute;
+	top: 35%;
+	right: 2%;
+}
+.product-introduce-ear .section9 ul li.odd2{
+	background: url(../img/v23/image_index_100.png) no-repeat center 20px #27bbd2;
+}
+/*心云胎心*/
+.product-introduce-fh h2{
+	color: #00b9cc;
+	position: absolute;
+	font-size: 54px;
+}
+.product-introduce-fh p{
+	position: absolute;
+	font-size: 24px;
+	color: #6a6a6a;
+}
+.product-introduce-fh .section1 h2{
+	top: 45%;
+	left: 10%;
+}
+.product-introduce-fh .section1 p{
+	top: 56%;
+	left: 10%;
+}
+.product-introduce-fh .section2 h2{
+	left: 15%;
+	top: 40%;
+}
+.product-introduce-fh .section2 p{
+	color: #fff;
+	top: 38%;
+	left: 15%;
+	height: 44px;
+	line-height: 44px;
+}
+.product-introduce-fh .section3 h2{
+	left: 62%;
+	top: 10%;
+	line-height: 84px;
+}
+.product-introduce-fh .section3 em{
+	position: absolute;
+	top: 46%;
+	left: 62%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #6a6a6a;
+	font-style: normal;
+}
+.product-introduce-fh .section3 p{
+	font-size: 18px;
+	top: 40%;
+	left: 62.2%;
+	line-height: 42px;
+}
+.product-introduce-fh .section4 h2{
+	top: 40%;
+	left: 10%;
+}
+.product-introduce-fh .section4 p{
+	top: 38%;
+	left: 10%;
+	line-height: 44px;
+}
+.product-introduce-fh .section5 h2{
+	bottom: 28%;
+	left: 45%;
+}
+.product-introduce-fh .section5 p{
+	bottom: 8%;
+	left: 45%;
+	line-height: 50px;
+}
+.product-introduce-fh .section6 h2{
+	top: 30%;
+	left: 12%;
+}
+.product-introduce-fh .section6 p{
+	top: 30%;
+	left: 12%;
+	line-height: 44px;
+}
+.product-introduce-fh .section7 h2{
+	top: 35%;
+	right: 15%;
+}
+.product-introduce-fh .section7 p{
+	top: 34%;
+	right: 12%;
+	line-height: 44px;
+}
+.product-introduce-fh .section9 h3{
+	left: 47.5%;
+	top: 14%;
+}
+.section9 ul{
+	bottom: 18%;
+}
+.product-introduce-fh .section9 ul li.odd1{
+	background: url(../img/v23/image_index_55.png) no-repeat center 20px #27bbd2;
+}
+.product-introduce-fh .section9 ul li.odd2{
+	background: url(../img/v23/image_index_110.png) no-repeat center 20px #27bbd2;
+}

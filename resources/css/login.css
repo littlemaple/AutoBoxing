@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*content*/
+#wrapper {
+    margin: 0 auto 40px;
+    position: relative;
+    width: 1000px;
+}
+.login-box {
+    position: relative;
+}
+.login-box img {
+    height: 750px;
+    vertical-align: top;
+    width: 1000px;
+}
+.login-confirm {
+    height: 450px;
+    position: absolute;
+    right: 60px;
+    top: 70px;
+    width: 370px;
+}
+.login-bg {
+    background: none repeat scroll 0 0 #fff;
+    height: 450px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 370px;
+    z-index: 1;
+}
+.login-confirm .content-tab {
+    color: #999;
+    font-size: 14px;
+    z-index: 2;
+}
+.login-confirm .tab {
+    margin: 20px 10px 10px;
+    overflow: hidden;
+    padding: 0;
+}
+.login-confirm .tab li {
+    line-height: 35px;
+}
+.login-confirm .content-tab .tab li a {
+    color: #999;
+    font-size: 16px;
+    margin: 0 10px;
+    width: 66px;
+}
+.login-confirm .content-tab .tab ul li.key a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #06bbc3;
+    color: #06bbc3;
+    margin-bottom: 0;
+}
+.login-confirm .content-tab .itemlist {
+    border-top: 0 none;
+}
+.login-confirm .item {
+    margin-top: 10px;
+}
+.login-confirm .item ul {
+    padding: 0 0 0 18px;
+}
+.login-confirm .item ul li {
+    margin-top: 20px;
+    padding: 0;
+    position: relative;
+}
+.login-confirm .item ul li input[type="text"], .login-confirm .item ul li input[type="password"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c9c9c9;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 10px 14px;
+    width: 305px;
+}
+.login-confirm .item ul li input[type="checkbox"] {
+    margin-top: 0;
+}
+.login-confirm .item ul li input.width185 {
+    border-radius: 4px 0 0 4px;
+    border-right: 0 none;
+    float: left;
+    vertical-align: middle;
+    width: 185px;
+}
+.login-confirm .item ul li span {
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+}
+.login-confirm .item label {
+    font-size: 14px;
+    text-align: left;
+    width: auto;
+}
+.login-confirm .item label.color-03 {
+    display: block;
+    font-size: 12px;
+}
+.forget-pw {
+    color: #999;
+    position: absolute;
+    right: 16px;
+}
+.login-confirm .item ul li .login-code {
+    background: none repeat scroll 0 0 #747474;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+}
+.login-code img {
+    height: 40px;
+    width: 70px;
+}
+.login-confirm .item ul li .renovate {
+    background: url("../img/v2/forget-pw.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 49px;
+}
+.login-submit[type="submit"] {
+    background: url("../img/v23/image_index_78.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    width: 335px;
+}
+.pass-reglink {
+    color: #2fbec3;
+    left: 0;
+    position: absolute;
+    top: 45px;
+}
+.content-tab {
+    position: relative;
+}
+.color-03 {
+    color: #2fbec3;
+}
+
+
+/*新增*/
+.login-content{
+	position:relative;
+}
+.login-content img{
+	width:100%;
+}
+.login-content .login-confirm-new{
+	height:450px;
+	position:absolute;
+	width:370px;
+	top:40px;
+	right:150px;
+}
+.login-confirm-new .content-tab {
+    color: #999;
+    font-size: 14px;
+    z-index: 2;
+}
+.login-confirm-new .tab {
+    margin: 20px 10px 10px;
+    overflow: hidden;
+    padding: 0;
+}
+.login-confirm-new .tab li {
+    line-height: 35px;
+}
+.login-confirm-new .content-tab .tab li a {
+    color: #999;
+    font-size: 16px;
+    margin: 0 10px;
+    width: 66px;
+}
+.login-confirm-new .content-tab .tab ul li.key a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #06bbc3;
+    color: #06bbc3;
+    margin-bottom: 0;
+}
+.login-confirm-new .content-tab .itemlist {
+    border-top: 0 none;
+}
+.login-confirm-new .item {
+    margin-top: 10px;
+}
+.login-confirm-new .item ul {
+    padding: 0 0 0 18px;
+}
+.login-confirm-new .item ul li {
+    margin-top: 20px;
+    padding: 0;
+    position: relative;
+}
+.login-confirm-new .item ul li input[type="text"], .login-confirm-new .item ul li input[type="password"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c9c9c9;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 10px 14px;
+    width: 305px;
+}
+.login-confirm-new .item ul li input[type="checkbox"] {
+    margin-top: 0;
+}
+.login-confirm-new .item ul li input.width185 {
+    border-radius: 4px 0 0 4px;
+    border-right: 0 none;
+    float: left;
+    vertical-align: middle;
+    width: 185px;
+}
+.login-confirm-new .item ul li span {
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+}
+.login-confirm-new .item label {
+    font-size: 14px;
+    text-align: left;
+    width: auto;
+    display: inline-block;
+}
+.login-confirm-new .item label.color-03 {
+    display: block;
+    font-size: 12px;
+}
+.login-confirm-new .item ul li .login-code {
+    background: none repeat scroll 0 0 #747474;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+}
+.login-confirm-new .item ul li .renovate {
+    background: url("../img/v23/forget-pw.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 49px;
+}
+
+/*验证码不能输入*/
+.itemlist ul li.check-code{
+   display: table;
+}
