@@ -201,7 +201,6 @@ class RouteCollection implements Countable, IteratorAggregate
                 return new Response('', 200, ['Allow' => implode(',', $methods)]);
             }))->bind($request);
         }
-
         $this->methodNotAllowed($methods);
     }
 

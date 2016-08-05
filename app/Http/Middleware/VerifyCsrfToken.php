@@ -16,7 +16,6 @@ class VerifyCsrfToken extends BaseVerifier
     ];
     
     protected function isReading($request) {
-//        parent::isReading($request);
-        return true;
+        return parent::isReading($request);
     }
 }

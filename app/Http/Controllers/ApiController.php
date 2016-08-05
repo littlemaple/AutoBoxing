@@ -8,17 +8,21 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 class ApiController extends \App\Http\Controllers\Controller{
     
    public function show(){
-        return view("api.index");
+//        return view("api.index");
+       return "show";
     }
     
     public function index(){
         return view("api.index");
     }
     
-    public function store(){
-        echo "";
+    public function store(Request $request){
+        $uri =  $request->getRequestUri();
+        $action = rtrim(ltrim(str_replace("/api/", "",$uri)));
+        return $action;
     }
 }

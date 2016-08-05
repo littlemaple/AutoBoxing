@@ -31,3 +31,4 @@ Route::resource("storage","StorageController");
 Route::resource("api","ApiController");
 
 Route::resource("web/webview","WebviewController");
+
