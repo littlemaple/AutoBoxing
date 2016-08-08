@@ -68,6 +68,5 @@
 <div id="snowflake"></div>
 <div id="boy" class="charector"></div>
 </div>
-    <script src="../../js/auto/80.js" type="text/javascript"></script>
 </body>
 </html>
