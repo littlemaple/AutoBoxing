@@ -17,7 +17,8 @@ class DevController extends \App\Http\Controllers\Controller{
     public function show(Request $request){
         $uri = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 //        return view("web.valen",['origin'=>$result,"name"=>$this->get_valid_name()]);
-        $result = $this->get_valid_name()."<br />".$this->showcase;
+        $res = $this->get_valid_name();
+        $result = $res[0]."<br />".$res[1]."<br />".$this->showcase;
         return view("web.anim",["name"=>$result]);
     }
     public function index(){
@@ -26,11 +27,11 @@ class DevController extends \App\Http\Controllers\Controller{
    
     private function get_valid_name(){
        $s = filter_input(INPUT_GET,"name");
-       if($s==null){
-           return "陈娇颖";
+       if($s==null||$s==="1"){
+           return ["陈娇颖","I love you"];
        }
        if(array_key_exists($s,$this->data_sets)){
-           return $this->data_sets[$s];
+           return [$this->data_sets[$s],""];
        }
        echo $this->valid_name;
        exit();
