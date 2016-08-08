@@ -32,3 +32,5 @@ Route::resource("api","ApiController");
 
 Route::resource("web/webview","WebviewController");
 
+Route::resource("rainbow","DevController");
+
