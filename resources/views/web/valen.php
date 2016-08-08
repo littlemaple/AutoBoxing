@@ -89,7 +89,7 @@ and open the template in the editor.
         </div>
     </div>
           <body>
-              <video width="100px" height="100px" autoplay loop autobuffer style="display:hide" >
+              <video width="100px" height="100px" autoplay loop autobuffer muted="true" style="display:none" >
             <source src="../../media/still_love_you.mp3" type="video/mp4">
         Your browser does not support the video tag.
         </video>
