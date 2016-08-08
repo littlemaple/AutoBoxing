@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
-    <meta name="viewport" content="width=device-width,initial-scale=0.8,user-scalable=no">  
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">  
     <title>Roas</title>
     <!-- Get jQuery -->
     <script src="../../js/jquery.min.js"></script>
@@ -44,7 +44,7 @@
         body{
                 font-family: "Ubuntu", sans-serif;
                 font-size: 100%;
-
+                padding: 20px;
                 background:#f8f8f8;
         }
 
@@ -64,7 +64,7 @@
         .wrap{
                 max-width: 600px;
                 text-align: center;
-                margin: 30px;
+                margin: 90px auto auto auto;
         }
 
         .type-wrap{
@@ -110,8 +110,9 @@
             50% { opacity:0; }
             100% { opacity:1; }
         }
-        #demo{
+        #demo ,#c{
             text-align: center;
+            margin: 50px auto auto auto;
         }
     </style>
 </head>
@@ -119,12 +120,12 @@
        <div class="wrap">
         <div class="type-wrap">
             <div id="typed-strings">
-                <span><strong>陈娇颖:</strong>Happy  valentine  day!!!</span>
+                <span><strong><?php echo $name;?>:</strong>Happy  valentine  day!!!</span>
             </div>
             <span id="typed" style="white-space:pre;"></span>
         </div>
     </div>
-<div id="demo" style="width:2px; height:500px;"><canvas id="c" height="2px" width="500px"></canvas></div>
+<div id="demo" style="width:200px; height:500px;"><canvas id="c" height="2px" width="500px"></canvas></div>
 
 <script> 
     var b = document.body;
