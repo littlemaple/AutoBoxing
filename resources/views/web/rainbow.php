@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <meta name="viewport" content="width=device-width,initial-scale=0.8,user-scalable=no">  
     <title>Roas</title>
     <!-- Get jQuery -->
     <script src="../../js/jquery.min.js"></script>
@@ -12,7 +14,7 @@
         $("#typed").typed({
             // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
             stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
+            typeSpeed: 50,
             backDelay: 500,
             loop: false,
             contentType: 'html', // or text
@@ -33,8 +35,46 @@
     function foo(){ console.log("Callback"); }
 
     </script>
-    <link href="../../css/main.css" rel="stylesheet"/>
     <style>
+        *{
+	padding:0;
+	margin:0;
+        }
+
+        body{
+                font-family: "Ubuntu", sans-serif;
+                font-size: 100%;
+
+                background:#f8f8f8;
+        }
+
+        a{
+                text-decoration: none;
+                color:#666;
+        }
+        a:hover{
+                color:#999;
+        }
+        p{
+                line-height: 2em;
+                margin:0 0 20px;
+                text-align: center;
+        }
+
+        .wrap{
+                max-width: 600px;
+                text-align: center;
+                margin: 30px;
+        }
+
+        .type-wrap{
+                margin: auto;
+                padding:20px;
+                text-align: center;
+                background:#f0f0f0;
+                border-radius:5px;
+                border:#CCC 1px solid;
+        }
         /* code for animated blinking cursor */
         .typed-cursor{
             opacity: 1;
@@ -76,8 +116,7 @@
     </style>
 </head>
 <body>
-<div id="demo" style="width:520; height:500px;"><canvas id="c" height="500" width="500"></canvas></div>
-   <div class="wrap">
+       <div class="wrap">
         <div class="type-wrap">
             <div id="typed-strings">
                 <span><strong>陈娇颖:</strong>Happy  valentine  day!!!</span>
@@ -85,6 +124,8 @@
             <span id="typed" style="white-space:pre;"></span>
         </div>
     </div>
+<div id="demo" style="width:2px; height:500px;"><canvas id="c" height="2px" width="500px"></canvas></div>
+
 <script> 
     var b = document.body;
     var c = document.getElementsByTagName('canvas')[0];
@@ -94,7 +135,7 @@
     document.body.clientWidth; 
 
     with(m=Math)C=cos,S=sin,P=pow,R=random;
-    c.width=c.height=f=500;h=-250;
+    c.width=c.height=f=640;h=-250;
     function p(a,b,c){
         if(c>60)
             return[S(a*7)*(13+5/(.2+P(b*4,4)))-S(b)*50,b*f+50,625+C(a*7)*(13+5/(.2+P(b*4,4)))+b*400,a*1-b/2,a];
