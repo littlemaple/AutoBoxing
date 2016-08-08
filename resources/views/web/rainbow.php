@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Typed.js - Type your heart out</title>
+    <title>Roas</title>
     <!-- Get jQuery -->
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/typed.js" type="text/javascript"></script>
