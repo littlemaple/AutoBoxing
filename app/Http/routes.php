@@ -34,3 +34,5 @@ Route::resource("web/webview","WebviewController");
 
 Route::resource("rainbow","DevController");
 
+Route::resource("resource","FtpController");
+
