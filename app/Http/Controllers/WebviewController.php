@@ -20,21 +20,21 @@ class WebviewController extends \App\Http\Controllers\Controller{
     }
     public function show(Request $request){
          $relative_action = rtrim(ltrim(str_replace("/web/webview/","",$request->getRequestUri())));
-         $argument=["content"=>''];
-         if($relative_action=='process'){
-             $content ="<table>";
-             $users = DB::select("select * from pack_log");
-             foreach($users as &$val){
-                 $content .="<tr>";
-                 foreach($val as $key=>$value){
-                     $content.="<td>".$key."=>".$value."</td>";
-                 }
-                 $content.="</td>";
-             }
-             $content .="</table>";
-             $argument['content']=$content;
-         }
-        return  view("web.".$relative_action,$argument);
+//         $argument=["content"=>''];
+//         if($relative_action=='process'){
+//             $content ="<table>";
+//             $users = DB::select("select * from pack_log");
+//             foreach($users as &$val){
+//                 $content .="<tr>";
+//                 foreach($val as $key=>$value){
+//                     $content.="<td>".$key."=>".$value."</td>";
+//                 }
+//                 $content.="</td>";
+//             }
+//             $content .="</table>";
+//             $argument['content']=$content;
+//         }
+        return  view("web.".$relative_action);
     }
     
     private function getSuggestData(){
