@@ -101,7 +101,7 @@
       }
       getStyle();
     foreach($files as $value){
-        echo "<a href='".$_SERVER['APP_URL']."/storage/".basename($value)."' class='card ".getStyle()."'>"
+        echo "<a href='"."/storage/".basename($value)."' class='card ".getStyle()."'>"
                 ."<i class='card__circle'></i><i class='card__icon fa fa-info'></i>"
                 . "<p>".basename($value)."</p></a>";
     }
